@@ -1,0 +1,231 @@
+oft\Windows\CurrentVersion\WINEVT\Publishers\{651E0E5C-0946-43FF-B70F-AECD299B29B4}","Enabled",%FLG_ADDREG_TYPE_DWORD%,1
+
+[DptfCpuEtwLegacy_AddReg]
+HKLM,"SOFTWARE\Microsoft\Windows\CurrentVersion\WINEVT\Publishers\{651E0E5C-0946-43FF-B70F-AECD299B29B4}",,%FLG_ADDREG_TYPE_SZ%,"DptfCpuEtwProvider"
+HKLM,"SOFTWARE\Microsoft\Windows\CurrentVersion\WINEVT\Publishers\{651E0E5C-0946-43FF-B70F-AECD299B29B4}","ResourceFileName",%REG_EXPAND_SZ%,"%%SystemRoot%%\system32\drivers\dptf_cpu.sys"
+HKLM,"SOFTWARE\Microsoft\Windows\CurrentVersion\WINEVT\Publishers\{651E0E5C-0946-43FF-B70F-AECD299B29B4}","MessageFileName",%REG_EXPAND_SZ%,"%%SystemRoot%%\system32\drivers\dptf_cpu.sys"
+HKLM,"SOFTWARE\Microsoft\Windows\CurrentVersion\WINEVT\Publishers\{651E0E5C-0946-43FF-B70F-AECD299B29B4}","Enabled",%FLG_ADDREG_TYPE_DWORD%,1
+
+[EsifUmdf2Etw_Install]
+AddReg=EsifUmdf2Etw_AddReg
+
+[EsifUmdf2EtwLegacy_Install]
+AddReg=EsifUmdf2EtwLegacy_AddReg
+
+[EsifUmdf2Etw_AddReg]
+HKLM,"SOFTWARE\Microsoft\Windows\CurrentVersion\WINEVT\Publishers\{3F51786B-B787-4B2F-84FC-272B76348F6D}",,%FLG_ADDREG_TYPE_SZ%,"EsifUmdf2EtwProvider"
+HKLM,"SOFTWARE\Microsoft\Windows\CurrentVersion\WINEVT\Publishers\{3F51786B-B787-4B2F-84FC-272B76348F6D}","ResourceFileName",%REG_EXPAND_SZ%,"%13%\esif_umdf2.dll"
+HKLM,"SOFTWARE\Microsoft\Windows\CurrentVersion\WINEVT\Publishers\{3F51786B-B787-4B2F-84FC-272B76348F6D}","MessageFileName",%REG_EXPAND_SZ%,"%13%\esif_umdf2.dll"
+HKLM,"SOFTWARE\Microsoft\Windows\CurrentVersion\WINEVT\Publishers\{3F51786B-B787-4B2F-84FC-272B76348F6D}","Enabled",%FLG_ADDREG_TYPE_DWORD%,1
+
+[EsifUmdf2EtwLegacy_AddReg]
+HKLM,"SOFTWARE\Microsoft\Windows\CurrentVersion\WINEVT\Publishers\{3F51786B-B787-4B2F-84FC-272B76348F6D}",,%FLG_ADDREG_TYPE_SZ%,"EsifUmdf2EtwProvider"
+HKLM,"SOFTWARE\Microsoft\Windows\CurrentVersion\WINEVT\Publishers\{3F51786B-B787-4B2F-84FC-272B76348F6D}","ResourceFileName",%REG_EXPAND_SZ%,"%%SystemRoot%%\system32\drivers\UMDF\esif_umdf2.dll"
+HKLM,"SOFTWARE\Microsoft\Windows\CurrentVersion\WINEVT\Publishers\{3F51786B-B787-4B2F-84FC-272B76348F6D}","MessageFileName",%REG_EXPAND_SZ%,"%%SystemRoot%%\system32\drivers\UMDF\esif_umdf2.dll"
+HKLM,"SOFTWARE\Microsoft\Windows\CurrentVersion\WINEVT\Publishers\{3F51786B-B787-4B2F-84FC-272B76348F6D}","Enabled",%FLG_ADDREG_TYPE_DWORD%,1
+
+
+;----------------------------------------------------------------------
+; Various ESIF UF components.
+;----------------------------------------------------------------------
+
+[EsifUfService_CopyFiles]
+esif_uf.exe,,,%COPYFLG_NOSKIP%
+
+[EsifUfServiceLegacy_CopyFiles]
+esif_uf.exe,,,%COPYFLG_NOSKIP%
+
+[EsifDptfDll_CopyFiles]
+Dptf.dll,,,%COPYFLG_NOSKIP%
+DptfPolicyRfim.dll,,,%COPYFLG_NOSKIP%
+DptfPolicyActive.dll,,,%COPYFLG_NOSKIP%
+DptfPolicyActive2.dll,,,%COPYFLG_NOSKIP%
+DptfPolicyAdaptivePerformance.dll,,,%COPYFLG_NOSKIP%
+DptfPolicyCritical.dll,,,%COPYFLG_NOSKIP%
+DptfPolicyConfigTdp.dll,,,%COPYFLG_NOSKIP%
+DptfPolicyPassive.dll,,,%COPYFLG_NOSKIP%
+DptfPolicyPassive2.dll,,,%COPYFLG_NOSKIP%
+DptfPolicyPid.dll,,,%COPYFLG_NOSKIP%
+DptfPolicyPowerBoss.dll,,,%COPYFLG_NOSKIP%
+DptfPolicyVirtualSensor.dll,,,%COPYFLG_NOSKIP%
+DptfPolicyPowerShare.dll,,,%COPYFLG_NOSKIP%
+upe_wwan.dll,,,%COPYFLG_NOSKIP%
+upe_wifi.dll,,,%COPYFLG_NOSKIP%
+upe_nvme.dll,,,%COPYFLG_NOSKIP%
+upe_battery.dll,,,%COPYFLG_NOSKIP%
+upe_socwc.dll,,,%COPYFLG_NOSKIP%
+dptf_helper.exe,,,%COPYFLG_NOSKIP%
+esif_cmp.dll,,,%COPYFLG_NOSKIP%
+esif_ws.dll,,,%COPYFLG_NOSKIP%
+
+[EsifDptfDllLegacy_CopyFiles]
+Dptf.dll,,,%COPYFLG_NOSKIP%
+DptfPolicyRfim.dll,,,%COPYFLG_NOSKIP%
+DptfPolicyActive.dll,,,%COPYFLG_NOSKIP%
+DptfPolicyActive2.dll,,,%COPYFLG_NOSKIP%
+DptfPolicyAdaptivePerformance.dll,,,%COPYFLG_NOSKIP%
+DptfPolicyCritical.dll,,,%COPYFLG_NOSKIP%
+DptfPolicyConfigTdp.dll,,,%COPYFLG_NOSKIP%
+DptfPolicyPassive.dll,,,%COPYFLG_NOSKIP%
+DptfPolicyPassive2.dll,,,%COPYFLG_NOSKIP%
+DptfPolicyPid.dll,,,%COPYFLG_NOSKIP%
+DptfPolicyPowerBoss.dll,,,%COPYFLG_NOSKIP%
+DptfPolicyVirtualSensor.dll,,,%COPYFLG_NOSKIP%
+DptfPolicyPowerShare.dll,,,%COPYFLG_NOSKIP%
+upe_wwan.dll,,,%COPYFLG_NOSKIP%
+upe_wifi.dll,,,%COPYFLG_NOSKIP%
+upe_nvme.dll,,,%COPYFLG_NOSKIP%
+upe_battery.dll,,,%COPYFLG_NOSKIP%
+upe_socwc.dll,,,%COPYFLG_NOSKIP%
+dptf_helper.exe,,,%COPYFLG_NOSKIP%
+esif_cmp.dll,,,%COPYFLG_NOSKIP%
+esif_ws.dll,,,%COPYFLG_NOSKIP%
+
+[EsifDspDv_CopyFiles]
+dsp.dv,,,%COPYFLG_NOSKIP%
+
+[EsifDspDvLegacy_CopyFiles]
+dsp.dv,,,%COPYFLG_NOSKIP%
+
+[EsifUf_InstallService]
+DisplayName=%ServiceDisplayName%
+Description=%ServiceDescription%
+ServiceType = %SERVICE_WIN32_OWN_PROCESS%
+StartType = %SERVICE_AUTO_START%
+ErrorControl = %SERVICE_ERROR_NORMAL%
+ServiceBinary = """%13%\%ServiceFile%"""
+
+[EsifUfLegacy_InstallService]
+DisplayName=%ServiceDisplayName%
+Description=%ServiceDescription%
+ServiceType = %SERVICE_WIN32_OWN_PROCESS%
+StartType = %SERVICE_AUTO_START%
+ErrorControl = %SERVICE_ERROR_NORMAL%
+ServiceBinary = """%11%\%InstallDir%\%ServiceFile%"""
+
+[EsifUfEventLog_Install]
+AddReg=EsifUfEventLog_AddReg
+
+[EsifUfEventLogLegacy_Install]
+AddReg=EsifUfEventLogLegacy_AddReg
+
+[EsifUfEventLog_AddReg]
+HKLM,%EventLogProviderKey%,,%FLG_ADDREG_TYPE_SZ%,"DPTF"
+HKLM,%EventLogProviderKey%,"ResourceFileName",%REG_EXPAND_SZ%,"%13%\esif_uf.exe"
+HKLM,%EventLogProviderKey%,"MessageFileName",%REG_EXPAND_SZ%,"%13%\esif_uf.exe"
+HKLM,%EventLogProviderKey%,"Enabled",%FLG_ADDREG_TYPE_DWORD%,1
+HKLM,%EventLogProviderKey%"\ChannelReferences","Count",%FLG_ADDREG_TYPE_DWORD%,1
+HKLM,%EventLogProviderKey%"\ChannelReferences\0\",,%FLG_ADDREG_TYPE_SZ%,"Application"
+HKLM,%EventLogProviderKey%"\ChannelReferences\0\","Flags",%FLG_ADDREG_TYPE_DWORD%,1
+HKLM,%EventLogProviderKey%"\ChannelReferences\0\","Id",%FLG_ADDREG_TYPE_DWORD%,9
+HKLM,%EventLogChannelKey%,"Enabled",%FLG_ADDREG_TYPE_DWORD%,1
+HKLM,%EventLogChannelKey%,"EnableLevel",%FLG_ADDREG_TYPE_DWORD%,0
+HKLM,%EventLogChannelKey%,"EnableProperty",%FLG_ADDREG_TYPE_DWORD%,1
+HKLM,%EventLogChannelKey%,"LoggerName",%REG_EXPAND_SZ%,"EventLog-Application"
+HKLM,%EventLogChannelKey%,"MatchAnyKeyword",%FLG_ADDREG_TYPE_QWORD%,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x80
+HKLM,%EventLogChannelKey%,"MatchAllKeyword",%FLG_ADDREG_TYPE_QWORD%,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
+
+[EsifUfEventLogLegacy_AddReg]
+HKLM,%EventLogProviderKey%,,%FLG_ADDREG_TYPE_SZ%,"DPTF"
+HKLM,%EventLogProviderKey%,"ResourceFileName",%REG_EXPAND_SZ%,"%%SystemRoot%%\system32\Intel\DPTF\esif_uf.exe"
+HKLM,%EventLogProviderKey%,"MessageFileName",%REG_EXPAND_SZ%,"%%SystemRoot%%\system32\Intel\DPTF\esif_uf.exe"
+HKLM,%EventLogProviderKey%,"Enabled",%FLG_ADDREG_TYPE_DWORD%,1
+HKLM,%EventLogProviderKey%"\ChannelReferences","Count",%FLG_ADDREG_TYPE_DWORD%,1
+HKLM,%EventLogProviderKey%"\ChannelReferences\0\",,%FLG_ADDREG_TYPE_SZ%,"Application"
+HKLM,%EventLogProviderKey%"\ChannelReferences\0\","Flags",%FLG_ADDREG_TYPE_DWORD%,1
+HKLM,%EventLogProviderKey%"\ChannelReferences\0\","Id",%FLG_ADDREG_TYPE_DWORD%,9
+HKLM,%EventLogChannelKey%,"Enabled",%FLG_ADDREG_TYPE_DWORD%,1
+HKLM,%EventLogChannelKey%,"EnableLevel",%FLG_ADDREG_TYPE_DWORD%,0
+HKLM,%EventLogChannelKey%,"EnableProperty",%FLG_ADDREG_TYPE_DWORD%,1
+HKLM,%EventLogChannelKey%,"LoggerName",%REG_EXPAND_SZ%,"EventLog-Application"
+HKLM,%EventLogChannelKey%,"MatchAnyKeyword",%FLG_ADDREG_TYPE_QWORD%,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x80
+HKLM,%EventLogChannelKey%,"MatchAllKeyword",%FLG_ADDREG_TYPE_QWORD%,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00
+
+
+;----------------------------------------------------------------------
+; Dptf DPPE settings.
+;----------------------------------------------------------------------
+
+; The default config TDP AC/DC settings are index 0, they will be overwritten when the config TDP service is started 
+[DptfPolicyConfigTdpLevelDppeSettings]
+SubGroup    = %GUID_DPTF_GROUP%,"Intel(R) Dynamic Tuning Settings", "Intel(R) Dynamic Tuning Settings"
+Setting     = %GUID_DPTF_CONFIGTDP_LEVEL%,"Config TDP Level","Specify the Config TDP Level for Intel(R) Dynamic Tuning"
+Value       = 0, "High TDP", "Configure High TDP Level", %REG_DWORD%, 0
+Value       = 1, "Nominal TDP", "Configure Nominal TDP Level", %REG_DWORD%, 1
+Value       = 2, "Low TDP", "Configure Low TDP Level", %REG_DWORD%, 2
+Default     = %GUID_MAX_POWER_SAVINGS%, %AC%, 0
+Default     = %GUID_MAX_POWER_SAVINGS%, %DC%, 0
+Default     = %GUID_TYP_POWER_SAVINGS%, %AC%, 0
+Default     = %GUID_TYP_POWER_SAVINGS%, %DC%, 0
+Default     = %GUID_MIN_POWER_SAVINGS%, %AC%, 0
+Default     = %GUID_MIN_POWER_SAVINGS%, %DC%, 0
+
+;----------------------------------------------------------------------
+; Strings and Constants
+;----------------------------------------------------------------------
+
+[Strings]
+SERVICE_DEMAND_START  = 3
+SERVICE_KERNEL_DRIVER = 1
+SERVICE_ERROR_NORMAL  = 1
+
+INTEL = "Intel"
+DiskName = "Intel(R) Dynamic Tuning"
+
+DisplayName="Windows Driver Foundation - User-mode Driver Framework Reflector"
+
+REG_DWORD                       = 0x00010001
+REG_MULTI_SZ                    = 0x00010000
+REG_EXPAND_SZ                   = 0x00020000
+REG_SZ                          = 0x00000000
+
+AC                              = 0
+DC                              = 1
+
+GUID_MAX_POWER_SAVINGS          = "{a1841308-3541-4fab-bc81-f71556f20b4a}"  ; Power Saver mode
+GUID_TYP_POWER_SAVINGS          = "{381b4222-f694-41f0-9685-ff5bb260df2e}"  ; Balanced
+GUID_MIN_POWER_SAVINGS          = "{8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c}"  ; High Performance
+
+GUID_DPTF_GROUP                 = "{48df9d60-4f68-11dc-8314-0800200c9a66}"
+GUID_DPTF_CONFIGTDP_LEVEL       = "{07029cd8-4664-4698-95d8-43b2e9666596}"
+
+;----------------------------------------------------------------------
+;Strings/Constants specific to ESIF UF Service
+;----------------------------------------------------------------------
+
+SERVICE_WIN32_OWN_PROCESS = 0x00000010
+SERVICE_AUTO_START = 0x2
+
+FLG_ADDREG_TYPE_SZ = 0x00000000
+FLG_ADDREG_TYPE_DWORD = 0x00010001
+FLG_ADDREG_TYPE_QWORD = 0x000B0001
+
+COPYFLG_NOSKIP = 0x00000002
+
+ProductMessageKey="application\DPTF"
+ServiceDisplayName="Intel(R) Dynamic Tuning service"
+ServiceDescription="Intel(R) Dynamic Tuning service"
+ServiceFile="esif_uf.exe"
+DvDir="\ServiceProfiles\LocalService\AppData\Local\Intel\DPTF"
+DspDir="dsp"
+InstallDir="Intel\DPTF"
+EventLogProviderKey="SOFTWARE\Microsoft\Windows\CurrentVersion\WINEVT\Publishers\{d3cb85d1-d61c-4bcf-9674-7910ee54d6af}"
+EventLogChannelKey="SYSTEM\CurrentControlSet\Control\WMI\Autologger\EventLog-Application\{d3cb85d1-d61c-4bcf-9674-7910ee54d6af}"
+
+PROCSNB.DeviceDesc  = "Intel(R) Dynamic Tuning Processor Participant"
+PROCIVB.DeviceDesc  = "Intel(R) Dynamic Tuning Processor Participant"
+PROCHSW.DeviceDesc  = "Intel(R) Dynamic Tuning Processor Participant"
+PROCBDW.DeviceDesc  = "Intel(R) Dynamic Tuning Processor Participant"
+PROCSKL.DeviceDesc  = "Intel(R) Dynamic Tuning Processor Participant"
+PROCCHT.DeviceDesc  = "Intel(R) Dynamic Tuning Processor Participant"
+PROCBX0.DeviceDesc  = "Intel(R) Dynamic Tuning Processor Participant"
+PROCBX1.DeviceDesc  = "Intel(R) Dynamic Tuning Processor Participant"
+PROCBXX.DeviceDesc  = "Intel(R) Dynamic Tuning Processor Participant"
+PROCBXP.DeviceDesc  = "Intel(R) Dynamic Tuning Processor Participant"
+PROCCNL.DeviceDesc  = "Intel(R) Dynamic Tuning Processor Participant"
+PROCGLK.DeviceDesc  = "Intel(R) Dynamic Tuning Processor Participant"
+PROCICL.DeviceDesc  = "Intel(R) Dynamic Tuning Processor Participant"
+PROCLKF.DeviceDesc  = "Intel(R) Dynamic Tuning Processor Participant"
+PROCTGL.DeviceDesc  = "Intel(R) Dynamic Tuning Processor Participant"
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  INDX( 	 k≠Up           (   Ä  Ë       C                     S     ∞ †     W     9pf3[÷rÏè3[÷«ü¬3[÷rÏè3[÷         v          Ä/M i c r o s o f t . I n t e r n a t i o n a l S e t t i n g s . C o m m a n d s . n i . d l l X    
+ ∏ ®     W     üªÕ3[÷´˜3[÷—7˜3[÷´˜3[÷       ‡              3M i 
