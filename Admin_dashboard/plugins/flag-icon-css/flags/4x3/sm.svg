@@ -1,0 +1,244 @@
+   </Control>
+	<Control ClassName="copycontinue" ControlType="13">
+        <Text><![CDATA[試用]]></Text>
+    </Control>
+	<Control ClassName="copyDatacopy" ControlType="1">
+        <Text><![CDATA[HDDコピー]]></Text>
+    </Control>
+	<Control ClassName="copyDatarecovery" ControlType="1">
+        <Text><![CDATA[HDDデータリカバリー]]></Text>
+    </Control>
+	<Control ClassName="copydatatocopy" ControlType="1">
+        <Text><![CDATA[コピーするデータを選択]]></Text>
+    </Control>
+	<Control ClassName="copydatacopyto" ControlType="1">
+        <Text><![CDATA[保存先を選択]]></Text>
+    </Control>
+	<Control ClassName="copydestinationdisk" ControlType="1">
+        <Text><![CDATA[保存先ディスクを選択:]]></Text>
+    </Control>
+	<Control ClassName="copyfreedisk" ControlType="11">
+        <Text><![CDATA[空き領域]]></Text>
+    </Control>
+	<Control ClassName="copynotenoughspace" ControlType="11">
+        <Text><![CDATA[スペースが足りません。 別のHDDまたはUSBライブを選択してください。]]></Text>
+    </Control>
+	<Control ClassName="copywriteprotect" ControlType="11">
+        <Text><![CDATA[このディスクは書き込み禁止になっています。別のHDDまたはUSBライブを選択してください。]]></Text>
+    </Control>
+	<Control ClassName="copydatato" ControlType="11">
+        <Text><![CDATA[データ{1}を{0}にコピーしています ]]></Text>
+    </Control>
+	<Control ClassName="copystopcopy" ControlType="11">
+        <Text><![CDATA[データのコピーを停止してもよろしいですか？]]></Text>
+    </Control>
+	<Control ClassName="copydeviceremoved" ControlType="11">
+        <Text><![CDATA[ は削除されました！ ]]></Text>
+    </Control>
+	</Dialog>
+		<Dialog ClassName="Bootable">
+	<Control ClassName="bootregisterneedpaln" ControlType ="1" >
+        <Text><![CDATA[登録されていません、必要なプランを選択してください。]]></Text>
+    </Control>
+	<Control ClassName="bootBasic" ControlType ="1" >
+        <Text><![CDATA[データリカバリー]]></Text>
+    </Control>
+	<Control ClassName="bootPro" ControlType ="1" >
+        <Text><![CDATA[データリカバリープロ]]></Text>
+    </Control>
+	<Control ClassName="bootcreateboot" ControlType ="1" >
+        <Text><![CDATA[Windowsシステムが起動できないときにデータを復元するため、起動可能なドライブを作成します。]]></Text>
+    </Control>
+	<Control ClassName="bootStart" ControlType ="13" >
+        <Text><![CDATA[作成開始]]></Text>
+    </Control>
+	<Control ClassName="bootselectmode" ControlType ="1" >
+        <Text><![CDATA[起動可能なドライブを作成するため、モードを選択してください]]></Text>
+    </Control>
+	<Control ClassName="bootcreateusb" ControlType ="1" >
+        <Text><![CDATA[起動可能な USB ドライブを作成]]></Text>
+    </Control>
+	<Control ClassName="bootcreateusbdisk" ControlType ="1" >
+        <Text><![CDATA[USBドライブを接続してください]]></Text>
+    </Control>
+	<Control ClassName="bootcreate" ControlType ="13" >
+        <Text><![CDATA[作成]]></Text>
+    </Control>
+	<Control ClassName="bootcreatedvd" ControlType ="1" >
+        <Text><![CDATA[CD/DVD起動可能なドライブを作成]]></Text>
+    </Control>
+	<Control ClassName="bootnotsupport" ControlType ="1" >
+        <Text><![CDATA[外付けHDDはサポートされていません、USBを挿入してください。]]></Text>
+    </Control>
+	<Control ClassName="bootcheck" ControlType ="1" >
+        <Text><![CDATA[確認中…]]></Text>
+    </Control>
+	<Control ClassName="bootformatdisk" ControlType ="11" >
+        <Text><![CDATA[本操作はUSBに保存した内容をすべて消去します。続行してもよろしいですか？]]></Text>
+    </Control>
+	<Control ClassName="bootwriteprotected" ControlType ="11" >
+        <Text><![CDATA[ディスクが保護されていますので、フォーマットに失敗しました。]]></Text>
+    </Control>
+		<Control ClassName="bootusbused" ControlType ="11" >
+        <Text><![CDATA[ディスクが使用されていますので、フォーマットに失敗しました。]]></Text>
+    </Control>
+	<Control ClassName="bootunknowreason" ControlType ="11" >
+        <Text><![CDATA[不明な理由によりフォーマットに失敗しました。別のUSBを試してください。]]></Text>
+    </Control>
+	<Control ClassName="bootformatdevicerm" ControlType ="11" >
+        <Text><![CDATA[フォーマットされたデバイスが削除されました。]]></Text>
+    </Control>
+		<Control ClassName="bootretry" ControlType ="13" >
+        <Text><![CDATA[再試行]]></Text>
+    </Control>
+		<Control ClassName="bootdevicerm" ControlType ="11" >
+        <Text><![CDATA[デバイスが削除されました。]]></Text>
+    </Control>
+	<Control ClassName="bootDvdnotready" ControlType ="11" >
+        <Text><![CDATA[DVD/CDドライブの準備ができていません、ご確認してください。]]></Text>
+    </Control>
+	<Control ClassName="bootinsertblankdvd" ControlType ="11" >
+        <Text><![CDATA[空または上書きできるDVD/CDを挿入してください。]]></Text>
+    </Control>
+	<Control ClassName="bootloading" ControlType ="1" >
+        <Text><![CDATA[ダウンロード中…]]></Text>
+    </Control>
+	<Control ClassName="bootloadfailed" ControlType ="11" >
+        <Text><![CDATA[ダウンロードが失敗しました。 ]]></Text>
+    </Control>
+	<Control ClassName="bootcheckconnect" ControlType ="11" >
+        <Text><![CDATA[ネットワーク接続を確認してください。]]></Text>
+    </Control>
+	<Control ClassName="booterasedvd" ControlType ="11" >
+        <Text><![CDATA[本操作はDVD/CDに保存した内容をすべて消去します。続行してもよろしいですか ？
+]]></Text>
+    </Control>
+	<Control ClassName="bootformat" ControlType ="1" >
+        <Text><![CDATA[フォーマット中… ]]></Text>
+    </Control>
+	<Control ClassName="bootcreatecomplete" ControlType ="1" >
+        <Text><![CDATA[作成が完了しました。]]></Text>
+    </Control>
+	<Control ClassName="bootcreatefailed" ControlType ="1" >
+        <Text><![CDATA[作成に失敗しました。]]></Text>
+    </Control>
+
+	<Control ClassName="bootwritecomplete" ControlType ="1" >
+        <Text><![CDATA[上書きが完了しました]]></Text>
+    </Control>
+	<Control ClassName="bootwritefailed" ControlType ="11" >
+        <Text><![CDATA[上書きに失敗しました]]></Text>
+    </Control>
+		<Control ClassName="bootnext" ControlType ="1" >
+        <Text><![CDATA[次のステップ]]></Text>
+    </Control>
+		<Control ClassName="bootchangebios" ControlType ="1" >
+        <Text><![CDATA[1：USBドライブをハードディスクより先に起動させるように、BIOSの起動順位を変更してください。]]></Text>
+    </Control>
+		<Control ClassName="bootattach" ControlType ="1" >
+        <Text><![CDATA[2：USBドライブをUSBポートに挿入してください。]]></Text>
+    </Control>
+	<Control ClassName="bootrestart" ControlType ="1" >
+        <Text><![CDATA[3：パソコンを再起動してください。]]></Text>
+    </Control>
+	<Control ClassName="bootviewguide" ControlType ="1" >
+        <Text><![CDATA[<b><a href="#"><font color=#00AEE6>ガイドを見る</font></a></b>]]></Text>
+    </Control>
+	<Control ClassName="bootcontact" ControlType ="3" >
+        <Text><![CDATA[お問い合わせ]]></Text>
+    </Control>
+	<Control ClassName="bootcreating" ControlType ="1" >
+        <Text><![CDATA[作成中…]]></Text>
+    </Control>
+	<Control ClassName="bootwriting" ControlType ="1" >
+        <Text><![CDATA[Overwriting]]></Text>
+    </Control>
+	<Control ClassName="bootstoploading" ControlType ="11" >
+        <Text><![CDATA[ダウンロード中です、停止しますか？]]></Text>
+    </Control>
+	<Control ClassName="bootsBurncomplete" ControlType ="1" >
+        <Text><![CDATA[起動可能なCD/DVDが作成しました！]]></Text>
+    </Control>
+	<Control ClassName="bootburnfailed" ControlType ="1" >
+        <Text><![CDATA[書き込みに失敗しました]]></Text>
+    </Control>
+	<Control ClassName="bootinsertdvd" ControlType ="1" >
+        <Text><![CDATA[DVD/CDを挿入してください]]></Text>
+    </Control>
+	<Control ClassName="bootInvalid" ControlType ="11" >
+        <Text><![CDATA[デバイスが無効です]]></Text>
+    </Control>
+	<Control ClassName="bootcannotavaliable" ControlType ="11" >
+        <Text><![CDATA[DVD/CDが検出されません、続行しますか？]]></Text>
+    </Control>
+	<Control ClassName="bootformatnow" ControlType ="13" >
+        <Text><![CDATA[フォーマット]]></Text>
+    </Control>
+	<Control ClassName="bootfailedgetdvd" ControlType ="11" >
+        <Text><![CDATA[Failed to get DVD information]]></Text>
+    </Control>
+	<Control ClassName="bootDvdnotenough" ControlType ="11" >
+        <Text><![CDATA[DVD/CDの空き容量が不足です。空き容量250MB以上のDVD/CDを挿入してください。]]></Text>
+    </Control>
+	<Control ClassName="bootcantgetspace" ControlType ="11" >
+        <Text><![CDATA[DVD/CDの空き容量が不足です。DVD/CDの空き容量が250 MB以上であることを確認してください。]]></Text>
+    </Control>
+	<Control ClassName="bootBurning" ControlType ="1" >
+        <Text><![CDATA[書き込み中…]]></Text>
+    </Control>
+	<Control ClassName="bootdvdchangebios" ControlType ="1" >
+        <Text><![CDATA[1：CD-ROMをハードディスクより先に起動させるように、BIOSの起動順位を変更してください。]]></Text>
+    </Control>
+	<Control ClassName="bootdvdtattach" ControlType ="1" >
+        <Text><![CDATA[2：DVD/CDをパソコンに挿入してください。]]></Text>
+    </Control>
+	<Control ClassName="bootdvdrestart" ControlType ="1" >
+        <Text><![CDATA[3：パソコンを再起動してください。]]></Text>
+    </Control>
+	<Control ClassName="bootlblsuccess" ControlType="11">
+        <Text><![CDATA[起動ディスク作成 データリカバリーが登録済み！]]></Text>
+     </Control>
+	  <Control ClassName="bootBootableDrive" ControlType="1">
+        <Text><![CDATA[起動可能なドライブ：]]></Text>
+     </Control>
+	 <Control ClassName="bootersewarning" ControlType="1">
+        <Text><![CDATA[フォーマットすると、選択したドライブのすべてのデータが消去されます]]></Text>
+     </Control>
+	 <Control ClassName="bootselectusb" ControlType="1">
+        <Text><![CDATA[USBフラッシュドライブを選択]]></Text>
+     </Control>
+	 <Control ClassName="bootDownloadware" ControlType="1">
+        <Text><![CDATA[ファームウェアをダウンロードする]]></Text>
+     </Control>
+	 <Control ClassName="bootFormatusbflashdrive" ControlType="1">
+        <Text><![CDATA[USBフラッシュドライブをフォーマット]]></Text>
+     </Control>
+	 <Control ClassName="bootnewCompleted" ControlType="1">
+        <Text><![CDATA[完了]]></Text>
+     </Control>
+	 <Control ClassName="bootloadwaiting" ControlType="1">
+        <Text><![CDATA[ファームウェアをダウンロード中です。しばらくお待ちください...]]></Text>
+     </Control>
+	  <Control ClassName="bootFormatingflashdrive" ControlType="1">
+        <Text><![CDATA[USBフラッシュドライブをフォーマット中...]]></Text>
+     </Control>	 
+	 <Control ClassName="bootFormatingDvddrive" ControlType="1">
+        <Text><![CDATA[CD/DVDをフォーマット中...]]></Text>
+     </Control>
+	 <Control ClassName="bootcreatingboot" ControlType="1">
+        <Text><![CDATA[起動可能なドライブを作成中です、USBフラッシュドライブを取り出さないでください...]]></Text>
+     </Control>
+	 <Control ClassName="bootBurningboot" ControlType="1">
+        <Text><![CDATA[起動可能なドライブを作成中です、CD/DVDを取り出さないでください...]]></Text>
+     </Control>
+	 <Control ClassName="bootdrivecompleted" ControlType="1">
+        <Text><![CDATA[起動可能なUSBライブが作成しました！]]></Text>
+     </Control> 
+	  <Control ClassName="bootselectDvd" ControlType="1">
+        <Text><![CDATA[DVD/CDドライブを選択]]></Text>
+     </Control>
+	  <Control ClassName="bootFormatdvdflashdrive" ControlType="1">
+        <Text><![CDATA[CD/DVDをフォーマット]]></Text>
+     </Control>
+	</Dialog>
+  </Language>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
